@@ -1,5 +1,5 @@
 Carbon Footprint Estimator
-
+ 
 A simple backend API that estimates the carbon footprint of dishes based on their ingredients.
 
 
