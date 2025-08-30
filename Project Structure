@@ -1,0 +1,16 @@
+carbon-estimator/
+ ├── src/
+ │   ├── index.ts
+ │   ├── routes/
+ │   │    ├── estimate.ts
+ │   │    └── image.ts
+ │   ├── services/
+ │   │    ├── llmService.ts
+ │   │    ├── visionService.ts
+ │   │    └── carbonService.ts
+ │   ├── data/
+ │   │    └── carbonValues.json
+ ├── package.json
+ ├── tsconfig.json
+ ├── Dockerfile
+ ├── README.md
