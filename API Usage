@@ -1,0 +1,16 @@
+1. Estimate from dish
+
+  Bash
+
+  curl -X POST http://localhost:3000/estimate \
+  -H "Content-Type: application/json" \
+  -d '{"dish":"Chicken Biryani"}'
+
+2. Estimate from Image
+
+   Bash
+
+  curl -X POST http://localhost:3000/estimate/image \
+  -F "file=@test.jpg"
+
+   
